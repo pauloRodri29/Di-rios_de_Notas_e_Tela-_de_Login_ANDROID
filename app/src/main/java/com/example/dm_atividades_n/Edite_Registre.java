@@ -154,6 +154,7 @@ public class Edite_Registre extends AppCompatActivity {
                             editText_N3.setText("");
                             search_aluno.setText("");
                             Toast.makeText(Edite_Registre.this, "Apagado com sucesso", Toast.LENGTH_SHORT).show();
+                            popupWindow.dismiss();
                             validator = false;
                         }
 
