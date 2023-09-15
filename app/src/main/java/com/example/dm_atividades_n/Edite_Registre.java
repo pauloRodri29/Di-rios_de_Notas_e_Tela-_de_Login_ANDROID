@@ -55,8 +55,6 @@ public class Edite_Registre extends AppCompatActivity {
                 for (Map.Entry<String, ?> dado : all_dados.entrySet()) {
                     String chave = dado.getKey();
                     if (chave.equals(no_aluno)) {
-                        Toast.makeText(Edite_Registre.this, "Registro encontrado", Toast.LENGTH_SHORT).show();
-
                         String valor = dado.getValue().toString();
                         try {
                             JSONObject alunoJson = new JSONObject(valor);
@@ -74,12 +72,6 @@ public class Edite_Registre extends AppCompatActivity {
                             Toast.makeText(Edite_Registre.this, "Erro ao acessar as notas", Toast.LENGTH_SHORT).show();
                         }
                         validator = true;
-                    }else{
-                        editText_N1.setText("");
-                        editText_N2.setText("");
-                        editText_N3.setText("");
-                        validator = false;
-
                     }
                 }
             }
@@ -114,8 +106,6 @@ public class Edite_Registre extends AppCompatActivity {
                         editText_N2.setText("");
                         editText_N3.setText("");
                         Toast.makeText(Edite_Registre.this, "Salvo", Toast.LENGTH_SHORT).show();
-                    }else{
-                        Toast.makeText(Edite_Registre.this, "Nada para ser Salvo", Toast.LENGTH_SHORT).show();
                     }
                 }
             }
