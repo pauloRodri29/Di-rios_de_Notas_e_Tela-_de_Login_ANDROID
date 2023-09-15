@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">DM_Atividades_N</string>
+    <string name="titulo_Dia">Diário de Notas</string>
+    <string name="nome_aluno">Nome do Aluno</string>
+    <string name="title_principal">Dispositivos Movéis</string>
+    <string name="title_registros">Registros</string>
+    <string name="n1">Nota 1</string>
+    <string name="n2">Nota 2</string>
+    <string name="n3">Nota 3</string>
+    <string name="botão_tela_lista">Mostrar Registros</string>
+    <string name="botão_edit_salve">Salvar Edição</string>
+    <string name="Edit_re">Editar Registro</string>
+    <string name="input_search">Digite o nome do Aluno</string>
+    <string name="voltar">Voltar</string>
+    <string name="salvar">Salvar</string>
+    <string name="buscar">Buscar</string>
+    <string name="all_clear">Apagar tudo</string>
+    <string name="botão_registrar">Registrar</string>
+    <string name="botão_excluir">Excluir</string>
+    <string name="botão_editar">Editar</string>
+    <string name="botão_sim">Sim</string>
+    <string name="botão_nao">Não</string>
+    <string name="all_regis_confirm">Deseja realmente apagar tudo?</string>
+    <string name="titel_BV">Bovi Vax</string>
+    <string name="tite_Log">Login</string>
+    <string name="entrar_conta">Entrar</string>
+    <string name="seu_email">Seu E-mail</string>
+    <string name="sua_senha">Sua senha</string>
+    <string name="seu_nome">Seu nome</string>
+    <string name="cria_conta">Criar conta aqui!</string>
+    <string name="versao_login">Versão Bugada 0.0.0</string>
+    <string name="tela_login">Tela de Login</string>
+</resources>

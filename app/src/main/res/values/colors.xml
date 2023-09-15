@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="tela_default">#0D4E46</color>
+    <color name="input_default">#213028</color>
+    <color name="input_default_2">#506359</color>
+    <color name="cor_text_branco">#FFFFFFFF</color>
+    <color name="cor_text_preto">#000000</color>
+    <color name="cor_botao">#C6B791</color>
+    <color name="cor_botao_black">#121215</color>
+    <color name="tela_login">#A0C293</color>
+</resources>

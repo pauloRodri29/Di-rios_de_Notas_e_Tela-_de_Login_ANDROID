@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#05714B"
+    tools:context=".Tela_de_Login">
+
+    <TextView
+        android:id="@+id/title_BOVI"
+        style="@style/title_meu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titel_BV"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.105" />
+
+    <TextView
+        android:id="@+id/title_LOgin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tite_Log"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.858" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="356dp"
+        android:layout_height="227dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.468">
+
+        <EditText
+            android:id="@+id/editTextText"
+            style="@style/input_LOGIN"
+            android:hint="@string/seu_nome" />
+
+        <EditText
+            android:id="@+id/editTextText2"
+            style="@style/input_LOGIN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            android:ems="10"
+            android:hint="@string/seu_email"
+            android:inputType="text|textWebEmailAddress|textAutoComplete" />
+
+        <EditText
+            android:id="@+id/editTextText3"
+            style="@style/input_LOGIN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/sua_senha"
+            android:inputType="text|textVisiblePassword" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/but_entrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:text="@string/entrar_conta"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="@string/cria_conta"
+        android:textColor="#0BA3A3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/but_entrar"
+        app:layout_constraintVertical_bias="0.164" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="@string/versao_login"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/but_entrar"
+        app:layout_constraintVertical_bias="0.777" />
+</androidx.constraintlayout.widget.ConstraintLayout>

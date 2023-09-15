@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DM_Atividades_N" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="statusBarBackground">#ffffff</item>
+        <item name="android:statusBarColor">#ff000000</item>
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+</resources>
