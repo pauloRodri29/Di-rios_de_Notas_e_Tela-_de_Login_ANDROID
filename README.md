@@ -4,7 +4,7 @@ Bem-vindo ao repositório Diário de Notas e Tela de Login! Este é o lugar onde
 
 ## 💡 O que é este repositório?
 
-Este repositório é um tesouro repleto de desenvolvimento de aplicativos para Android usando as linguagens Java e Kotlin. Aqui, você encontrará código, recursos e informações para criar uma Tela de Login elegante e um Diário de Notas funcional. ✏️🔐
+Este repositório é um tesouro repleto de desenvolvimento de aplicativos para Android usando as linguagens Java. Aqui, você encontrará código, recursos e informações para criar uma Tela de Login elegante e um Diário de Notas funcional. ✏️🔐
 
 ## 📋 Resumo dos Recursos
 
